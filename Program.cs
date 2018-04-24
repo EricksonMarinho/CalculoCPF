@@ -36,7 +36,7 @@ namespace CalculoCPF
                  }
                 resto = rs2 % 11;
                 if(resto <2)
-                 cpfFinal = cpf9+0;
+                 cpfFinal = cpf10+0;
                 else 
                  cpfFinal = cpf10+(11-resto);
 
